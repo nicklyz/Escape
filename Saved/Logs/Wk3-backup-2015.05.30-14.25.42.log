@@ -1,0 +1,709 @@
+﻿Log file open, 05/28/15 19:35:34
+LogInit:Display: Running engine for game: Wk3
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.29-02.35.34:683][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.29-02.35.34:754][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.29-02.35.34:796][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.29-02.35.34:829][  0]LogInit: Object subsystem initialized
+[2015.05.29-02.35.34:844][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.29-02.35.34:844][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/College/CS188/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.29-02.35.34:844][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.29-02.35.34:844][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/College/CS188/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.29-02.35.34:844][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.29-02.35.34:844][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/College/CS188/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.29-02.35.34:848][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.29-02.35.34:848][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.29-02.35.34:879][  0]LogInit: Computer: ICUESP170SMA
+[2015.05.29-02.35.34:879][  0]LogInit: User: Icue
+[2015.05.29-02.35.34:879][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.29-02.35.34:879][  0]LogInit: High frequency timer resolution =2.435764 MHz
+[2015.05.29-02.35.34:879][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.05.29-02.35.34:880][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.29-02.35.34:880][  0]LogMemory: Process Physical Memory: 49.53 MB used, 49.53 MB peak
+[2015.05.29-02.35.34:880][  0]LogMemory: Process Virtual Memory: 29.92 MB used, 29.92 MB peak
+[2015.05.29-02.35.34:880][  0]LogMemory: Physical Memory: 3151.63 MB used, 8108.23 MB total
+[2015.05.29-02.35.34:880][  0]LogMemory: Virtual Memory: 294.87 MB used, 134217728.00 MB total
+[2015.05.29-02.35.34:945][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M          (Feature Level 11_0)
+[2015.05.29-02.35.34:945][  0]LogD3D11RHI: Adapter has 6035MB of dedicated video memory, 0MB of dedicated system memory, and 4054MB of shared system memory, 1 output[s]
+[2015.05.29-02.35.34:957][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.05.29-02.35.34:957][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.05.29-02.35.34:958][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.29-02.35.34:958][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.29-02.35.34:958][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.29-02.35.34:966][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.29-02.35.34:982][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.29-02.35.35:303][  0]LogTextLocalizationManager: The requested culture ('en') has no localization data; parent culture's ('zh_CN') localization data will be used.
+[2015.05.29-02.35.35:398][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.29-02.35.35:398][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.29-02.35.35:476][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.29-02.35.38:064][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.29-02.35.38:620][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.29-02.35.38:672][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.29-02.35.38:794][  0]LogDerivedDataCache: Loaded boot cache 0.12s 39MB C:/Users/Icue/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.29-02.35.38:794][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Icue/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.29-02.35.38:794][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../College/CS188/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.29-02.35.38:794][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.29-02.35.38:915][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.29-02.35.38:928][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Icue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.29-02.35.39:678][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.29-02.35.39:678][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.29-02.35.40:417][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.29-02.35.40:511][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.29-02.35.42:449][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.29-02.35.42:666][  0]SourceControl: Info Source control is disabled
+[2015.05.29-02.35.42:667][  0]SourceControl: Info Source control is disabled
+[2015.05.29-02.35.42:667][  0]SourceControl: Info Source control is disabled
+[2015.05.29-02.35.42:667][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.29-02.35.42:667][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.29-02.35.42:674][  0]SourceControl: Info Source control is disabled
+[2015.05.29-02.35.42:885][  0]LogObj: 24262 objects as part of root set at end of initial load.
+[2015.05.29-02.35.42:885][  0]LogUObjectAllocator: 5143888 out of 0 bytes used by permanent object pool.
+[2015.05.29-02.35.42:997][  0]LogEngine: Initializing Engine...
+[2015.05.29-02.35.45:555][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.29-02.35.45:592][  0]LogInit: FAudioDevice initialized.
+[2015.05.29-02.35.45:674][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.29-02.35.45:709][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Icue/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.29-02.35.45:726][  0]LogInit: Texture streaming: Enabled
+[2015.05.29-02.35.45:935][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.29-02.35.45:935][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.29-02.35.45:935][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.29-02.35.45:935][  0]LogAnalytics: SetUserId 1fc9679047d854207604e785063d47a0|01085c442c624900b9abb1f7ef3d69ab|51387463-d617-43aa-9761-e06f88098d68
+[2015.05.29-02.35.45:935][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.29-02.35.45:961][  0]LogInit: Transaction tracking system initialized
+[2015.05.29-02.35.46:127][  0]BlueprintLog: New page: Editor Load
+[2015.05.29-02.35.46:161][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2015.05.29-02.35.46:161][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.29-02.35.46:751][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.29-02.35.47:147][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.29-02.35.47:374][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.29-02.35.47:375][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.29-02.35.47:384][  0]LogConsoleResponse:Display: 
+[2015.05.29-02.35.47:519][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.29-02.35.47:663][  0]SourceControl: Info Source control is disabled
+[2015.05.29-02.35.47:664][  0]Cmd: MAP LOAD FILE="../../../../../../College/CS188/Project1/Content/Levels/level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.29-02.35.47:665][  0]LightingResults: New page: Lighting Build
+[2015.05.29-02.35.47:677][  0]MapCheck: New page: Map Check
+[2015.05.29-02.35.47:677][  0]LightingResults: New page: Lighting Build
+[2015.05.29-02.35.47:691][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008CDC3A520
+[2015.05.29-02.35.48:806][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Sprint' for  InputAction Sprint 
+[2015.05.29-02.35.48:838][  0]LogBlueprint:Warning: [compiler] Warning [0016.98] Compile of ExplorationCharacter successful, but with 1 Warning(s) [in 107 ms]
+[2015.05.29-02.35.48:838][  0]LogBlueprint:Warning: [compiler] Warning [0016.98] Compile of ExplorationCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.05.29-02.35.48:838][  0]LogBlueprint:Warning: [compiler] Warning [0016.98] Compile of ExplorationCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.05.29-02.35.48:838][  0]LogBlueprint:Warning: [compiler] Warning [0016.98] Compile of ExplorationCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.05.29-02.35.49:841][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Interact' for  InputAction Interact 
+[2015.05.29-02.35.49:844][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.05.29-02.35.49:965][  0]LogBlueprint:Warning: [compiler] Warning [0018.11] Compile of ContextMenu successful, but with 2 Warning(s) [in 340 ms]
+[2015.05.29-02.35.49:966][  0]LogBlueprint:Warning: [compiler] Warning [0018.11] Compile of ContextMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.05.29-02.35.49:966][  0]LogBlueprint:Warning: [compiler] Warning [0018.11] Compile of ContextMenu successful, but with 4 Warning(s) [in 0 ms]
+[2015.05.29-02.35.49:966][  0]LogBlueprint:Warning: [compiler] Warning [0018.11] Compile of ContextMenu successful, but with 5 Warning(s) [in 0 ms]
+[2015.05.29-02.35.50:923][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'ResetHMD' for  InputAction ResetHMD 
+[2015.05.29-02.35.50:924][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'OpenMenu' for  InputAction OpenMenu 
+[2015.05.29-02.35.51:026][  0]LogBlueprint:Warning: [compiler] Warning [0019.17] Compile of VRPlayerController successful, but with 2 Warning(s) [in 258 ms]
+[2015.05.29-02.35.51:028][  0]LogBlueprint:Warning: [compiler] Warning [0019.17] Compile of VRPlayerController successful, but with 3 Warning(s) [in 1 ms]
+[2015.05.29-02.35.51:028][  0]LogBlueprint:Warning: [compiler] Warning [0019.17] Compile of VRPlayerController successful, but with 4 Warning(s) [in 0 ms]
+[2015.05.29-02.35.51:028][  0]LogBlueprint:Warning: [compiler] Warning [0019.17] Compile of VRPlayerController successful, but with 5 Warning(s) [in 0 ms]
+[2015.05.29-02.35.51:447][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'ResetHMD' for  InputAction ResetHMD 
+[2015.05.29-02.35.51:447][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'OpenMenu' for  InputAction OpenMenu 
+[2015.05.29-02.35.51:543][  0]LogBlueprint:Warning: [compiler] Warning [0019.68] Compile of VRPlayerController successful, but with 2 Warning(s) [in 258 ms]
+[2015.05.29-02.35.51:543][  0]LogBlueprint:Warning: [compiler] Warning [0019.69] Compile of VRPlayerController successful, but with 3 Warning(s) [in 0 ms]
+[2015.05.29-02.35.51:821][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Interact' for  InputAction Interact 
+[2015.05.29-02.35.51:823][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.05.29-02.35.51:956][  0]LogBlueprint:Warning: [compiler] Warning [0020.10] Compile of ContextMenu successful, but with 2 Warning(s) [in 347 ms]
+[2015.05.29-02.35.51:957][  0]LogBlueprint:Warning: [compiler] Warning [0020.10] Compile of ContextMenu successful, but with 3 Warning(s) [in 0 ms]
+[2015.05.29-02.35.52:035][  0]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Sprint' for  InputAction Sprint 
+[2015.05.29-02.35.52:064][  0]LogBlueprint:Warning: [compiler] Warning [0020.21] Compile of ExplorationCharacter successful, but with 1 Warning(s) [in 102 ms]
+[2015.05.29-02.35.52:064][  0]LogBlueprint:Warning: [compiler] Warning [0020.21] Compile of ExplorationCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.05.29-02.35.54:423][  0]LogK2Compiler:Warning: Failed to patch linker table for blueprint CDO Default__SKEL_level_1_C
+[2015.05.29-02.35.54:429][  0]LogK2Compiler:Warning: Failed to patch linker table for blueprint CDO Default__level_C
+[2015.05.29-02.35.55:333][  0]LogTexture:Display: Building textures: T_Concrete_Grime_D (AutoDXT)
+[2015.05.29-02.35.59:570][  0]LogTexture:Display: Building textures: T_Metal_Rust_N (BC5)
+[2015.05.29-02.36.00:305][  0]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2015.05.29-02.36.04:007][  0]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2015.05.29-02.36.04:060][  0]LogTexture:Display: Building textures: TentGrnB12 (BGRA8)
+[2015.05.29-02.36.04:084][  0]LogMaterial: Missing cached shader map for material TentGrnB1, compiling. 
+[2015.05.29-02.36.04:102][  0]LogTexture:Display: Building textures: TentGrnB2 (BGRA8)
+[2015.05.29-02.36.04:134][  0]LogMaterial: Missing cached shader map for material TentGrnB22, compiling. 
+[2015.05.29-02.36.04:154][  0]LogTexture:Display: Building textures: TentGrnB32 (BGRA8)
+[2015.05.29-02.36.04:183][  0]LogMaterial: Missing cached shader map for material mirror2_Mat, compiling. 
+[2015.05.29-02.36.04:191][  0]LogMaterial: Missing cached shader map for material mirror3_Mat, compiling. 
+[2015.05.29-02.36.04:201][  0]LogMaterial: Missing cached shader map for material mirror4_Mat, compiling. 
+[2015.05.29-02.36.04:208][  0]LogMaterial: Missing cached shader map for material mirror5_Mat, compiling. 
+[2015.05.29-02.36.04:215][  0]LogMaterial: Missing cached shader map for material mirror8_Mat, compiling. 
+[2015.05.29-02.36.04:223][  0]LogMaterial: Missing cached shader map for material mirror6_Mat, compiling. 
+[2015.05.29-02.36.04:229][  0]LogMaterial: Missing cached shader map for material mirror7_Mat, compiling. 
+[2015.05.29-02.36.04:235][  0]LogMaterial: Missing cached shader map for material mirror9_Mat, compiling. 
+[2015.05.29-02.36.04:242][  0]LogMaterial: Missing cached shader map for material mirror_Mat, compiling. 
+[2015.05.29-02.36.04:257][  0]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.29-02.36.04:288][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.05.29-02.36.04:295][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.05.29-02.36.04:296][  0]LogStaticMesh: Building static mesh CircusSplendido01...
+[2015.05.29-02.36.04:790][  0]LogStaticMesh: Built static mesh [494.347168ms] /Game/props/CircusSplendido01.CircusSplendido01
+[2015.05.29-02.36.04:797][  0]LogStaticMesh: Building static mesh SM_GlassWindow...
+[2015.05.29-02.36.04:805][  0]LogStaticMesh: Built static mesh [8.382586ms] /Game/props/StarterContent/Props/SM_GlassWindow.SM_GlassWindow
+[2015.05.29-02.36.04:878][  0]LogTexture:Display: Building textures: CircusSign012 (AutoDXT)
+[2015.05.29-02.36.05:490][  0]LogMaterial: Missing cached shader map for material _Gray6_, compiling. 
+[2015.05.29-02.36.05:505][  0]LogMaterial: Missing cached shader map for material CircusSign01, compiling. 
+[2015.05.29-02.36.05:523][  0]LogTexture:Display: Building textures: ClownSig2 (AutoDXT)
+[2015.05.29-02.36.05:595][  0]LogMaterial: Missing cached shader map for material ClownSig, compiling. 
+[2015.05.29-02.36.05:609][  0]LogMaterial: Missing cached shader map for material FrontColor, compiling. 
+[2015.05.29-02.36.05:621][  0]LogTexture:Display: Building textures: Pennant02 (BGRA8)
+[2015.05.29-02.36.05:633][  0]LogMaterial: Missing cached shader map for material Pennant0, compiling. 
+[2015.05.29-02.36.05:645][  0]LogTexture:Display: Building textures: Post012 (AutoDXT)
+[2015.05.29-02.36.05:663][  0]LogMaterial: Missing cached shader map for material Post01, compiling. 
+[2015.05.29-02.36.05:681][  0]LogTexture:Display: Building textures: Poster022 (BGRA8)
+[2015.05.29-02.36.05:697][  0]LogMaterial: Missing cached shader map for material Poster02, compiling. 
+[2015.05.29-02.36.05:710][  0]LogTexture:Display: Building textures: Rope012 (BGRA8)
+[2015.05.29-02.36.05:715][  0]LogMaterial: Missing cached shader map for material Rope01, compiling. 
+[2015.05.29-02.36.05:728][  0]LogTexture:Display: Building textures: Rope12 (BGRA8)
+[2015.05.29-02.36.05:733][  0]LogMaterial: Missing cached shader map for material Rope1, compiling. 
+[2015.05.29-02.36.05:758][  0]LogTexture:Display: Building textures: SignBack2 (AutoDXT)
+[2015.05.29-02.36.06:076][  0]LogMaterial: Missing cached shader map for material SignBack, compiling. 
+[2015.05.29-02.36.06:087][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.05.29-02.36.06:091][  0]LogTexture:Display: Building textures: SignWood2 (BGRA8)
+[2015.05.29-02.36.06:098][  0]LogMaterial: Missing cached shader map for material SignWood, compiling. 
+[2015.05.29-02.36.06:112][  0]LogTexture:Display: Building textures: Stake012 (AutoDXT)
+[2015.05.29-02.36.06:153][  0]LogMaterial: Missing cached shader map for material Stake01, compiling. 
+[2015.05.29-02.36.06:175][  0]LogTexture:Display: Building textures: TentGrn22 (AutoDXT)
+[2015.05.29-02.36.06:530][  0]LogMaterial: Missing cached shader map for material TentGrn2, compiling. 
+[2015.05.29-02.36.06:557][  0]LogTexture:Display: Building textures: TentGrn2_12 (AutoDXT)
+[2015.05.29-02.36.06:777][  0]LogMaterial: Missing cached shader map for material TentGrn2_1, compiling. 
+[2015.05.29-02.36.06:790][  0]LogMaterial: Missing cached shader map for material TentGrnB, compiling. 
+[2015.05.29-02.36.06:804][  0]LogMaterial: Missing cached shader map for material TentGrnB3, compiling. 
+[2015.05.29-02.36.06:820][  0]LogTexture:Display: Building textures: TentRed22 (AutoDXT)
+[2015.05.29-02.36.06:964][  0]LogMaterial: Missing cached shader map for material TentRed2, compiling. 
+[2015.05.29-02.36.06:984][  0]LogTexture:Display: Building textures: TentRed2_12 (AutoDXT)
+[2015.05.29-02.36.07:220][  0]LogMaterial: Missing cached shader map for material TentRed2_1, compiling. 
+[2015.05.29-02.36.07:240][  0]LogTexture:Display: Building textures: TentRed2_102 (AutoDXT)
+[2015.05.29-02.36.07:471][  0]LogMaterial: Missing cached shader map for material TentRed2_10, compiling. 
+[2015.05.29-02.36.07:492][  0]LogTexture:Display: Building textures: TentRed2_112 (AutoDXT)
+[2015.05.29-02.36.07:730][  0]LogMaterial: Missing cached shader map for material TentRed2_11, compiling. 
+[2015.05.29-02.36.07:744][  0]LogMaterial: Missing cached shader map for material TentRed2_122, compiling. 
+[2015.05.29-02.36.07:765][  0]LogTexture:Display: Building textures: TentRed2_132 (AutoDXT)
+[2015.05.29-02.36.08:005][  0]LogMaterial: Missing cached shader map for material TentRed2_13, compiling. 
+[2015.05.29-02.36.08:029][  0]LogTexture:Display: Building textures: TentRed2_142 (AutoDXT)
+[2015.05.29-02.36.08:255][  0]LogMaterial: Missing cached shader map for material TentRed2_14, compiling. 
+[2015.05.29-02.36.08:276][  0]LogTexture:Display: Building textures: TentRed2_152 (AutoDXT)
+[2015.05.29-02.36.08:537][  0]LogMaterial: Missing cached shader map for material TentRed2_15, compiling. 
+[2015.05.29-02.36.08:558][  0]LogTexture:Display: Building textures: TentRed2_22 (AutoDXT)
+[2015.05.29-02.36.08:787][  0]LogMaterial: Missing cached shader map for material TentRed2_2, compiling. 
+[2015.05.29-02.36.08:808][  0]LogTexture:Display: Building textures: TentRed2_32 (AutoDXT)
+[2015.05.29-02.36.09:035][  0]LogMaterial: Missing cached shader map for material TentRed2_3, compiling. 
+[2015.05.29-02.36.09:056][  0]LogTexture:Display: Building textures: TentRed2_42 (AutoDXT)
+[2015.05.29-02.36.09:280][  0]LogMaterial: Missing cached shader map for material TentRed2_4, compiling. 
+[2015.05.29-02.36.09:301][  0]LogTexture:Display: Building textures: TentRed2_52 (AutoDXT)
+[2015.05.29-02.36.09:544][  0]LogMaterial: Missing cached shader map for material TentRed2_5, compiling. 
+[2015.05.29-02.36.09:564][  0]LogTexture:Display: Building textures: TentRed2_62 (AutoDXT)
+[2015.05.29-02.36.09:787][  0]LogMaterial: Missing cached shader map for material TentRed2_6, compiling. 
+[2015.05.29-02.36.09:807][  0]LogTexture:Display: Building textures: TentRed2_72 (AutoDXT)
+[2015.05.29-02.36.10:030][  0]LogMaterial: Missing cached shader map for material TentRed2_7, compiling. 
+[2015.05.29-02.36.10:051][  0]LogTexture:Display: Building textures: TentRed2_82 (AutoDXT)
+[2015.05.29-02.36.10:275][  0]LogMaterial: Missing cached shader map for material TentRed2_8, compiling. 
+[2015.05.29-02.36.10:294][  0]LogTexture:Display: Building textures: TentRed2_92 (AutoDXT)
+[2015.05.29-02.36.10:519][  0]LogMaterial: Missing cached shader map for material TentRed2_9, compiling. 
+[2015.05.29-02.36.10:543][  0]LogTexture:Display: Building textures: TentRedA2 (AutoDXT)
+[2015.05.29-02.36.10:780][  0]LogMaterial: Missing cached shader map for material TentRedA, compiling. 
+[2015.05.29-02.36.10:803][  0]LogTexture:Display: Building textures: TentRedB2 (AutoDXT)
+[2015.05.29-02.36.11:070][  0]LogMaterial: Missing cached shader map for material TentRedB, compiling. 
+[2015.05.29-02.36.11:086][  0]LogTexture:Display: Building textures: TentWht22 (AutoDXT)
+[2015.05.29-02.36.11:152][  0]LogMaterial: Missing cached shader map for material TentWht2, compiling. 
+[2015.05.29-02.36.11:168][  0]LogTexture:Display: Building textures: TentWht2_12 (AutoDXT)
+[2015.05.29-02.36.11:222][  0]LogMaterial: Missing cached shader map for material TentWht2_1, compiling. 
+[2015.05.29-02.36.11:238][  0]LogTexture:Display: Building textures: TentWht2_102 (AutoDXT)
+[2015.05.29-02.36.11:311][  0]LogMaterial: Missing cached shader map for material TentWht2_10, compiling. 
+[2015.05.29-02.36.11:329][  0]LogTexture:Display: Building textures: TentWht2_112 (AutoDXT)
+[2015.05.29-02.36.11:402][  0]LogMaterial: Missing cached shader map for material TentWht2_11, compiling. 
+[2015.05.29-02.36.11:417][  0]LogMaterial: Missing cached shader map for material TentWht2_122, compiling. 
+[2015.05.29-02.36.11:433][  0]LogTexture:Display: Building textures: TentWht2_132 (AutoDXT)
+[2015.05.29-02.36.11:510][  0]LogMaterial: Missing cached shader map for material TentWht2_13, compiling. 
+[2015.05.29-02.36.11:527][  0]LogTexture:Display: Building textures: TentWht2_142 (AutoDXT)
+[2015.05.29-02.36.11:621][  0]LogMaterial: Missing cached shader map for material TentWht2_14, compiling. 
+[2015.05.29-02.36.11:638][  0]LogTexture:Display: Building textures: TentWht2_152 (AutoDXT)
+[2015.05.29-02.36.11:719][  0]LogMaterial: Missing cached shader map for material TentWht2_15, compiling. 
+[2015.05.29-02.36.11:737][  0]LogTexture:Display: Building textures: TentWht2_22 (AutoDXT)
+[2015.05.29-02.36.11:813][  0]LogMaterial: Missing cached shader map for material TentWht2_2, compiling. 
+[2015.05.29-02.36.11:829][  0]LogTexture:Display: Building textures: TentWht2_32 (AutoDXT)
+[2015.05.29-02.36.11:908][  0]LogMaterial: Missing cached shader map for material TentWht2_3, compiling. 
+[2015.05.29-02.36.11:923][  0]LogTexture:Display: Building textures: TentWht2_42 (AutoDXT)
+[2015.05.29-02.36.11:999][  0]LogMaterial: Missing cached shader map for material TentWht2_4, compiling. 
+[2015.05.29-02.36.12:017][  0]LogTexture:Display: Building textures: TentWht2_52 (AutoDXT)
+[2015.05.29-02.36.12:094][  0]LogMaterial: Missing cached shader map for material TentWht2_5, compiling. 
+[2015.05.29-02.36.12:109][  0]LogTexture:Display: Building textures: TentWht2_62 (AutoDXT)
+[2015.05.29-02.36.12:183][  0]LogMaterial: Missing cached shader map for material TentWht2_6, compiling. 
+[2015.05.29-02.36.12:199][  0]LogTexture:Display: Building textures: TentWht2_72 (AutoDXT)
+[2015.05.29-02.36.12:273][  0]LogMaterial: Missing cached shader map for material TentWht2_7, compiling. 
+[2015.05.29-02.36.12:290][  0]LogTexture:Display: Building textures: TentWht2_82 (AutoDXT)
+[2015.05.29-02.36.12:366][  0]LogMaterial: Missing cached shader map for material TentWht2_8, compiling. 
+[2015.05.29-02.36.12:382][  0]LogTexture:Display: Building textures: TentWht2_92 (AutoDXT)
+[2015.05.29-02.36.12:456][  0]LogMaterial: Missing cached shader map for material TentWht2_9, compiling. 
+[2015.05.29-02.36.12:475][  0]LogTexture:Display: Building textures: TentWhtA2 (AutoDXT)
+[2015.05.29-02.36.12:562][  0]LogMaterial: Missing cached shader map for material TentWhtA, compiling. 
+[2015.05.29-02.36.12:582][  0]LogTexture:Display: Building textures: TentWhtB2 (AutoDXT)
+[2015.05.29-02.36.12:665][  0]LogMaterial: Missing cached shader map for material TentWhtB, compiling. 
+[2015.05.29-02.36.12:683][  0]LogTexture:Display: Building textures: TentYel22 (BGRA8)
+[2015.05.29-02.36.12:722][  0]LogMaterial: Missing cached shader map for material TentYel2, compiling. 
+[2015.05.29-02.36.12:747][  0]LogTexture:Display: Building textures: TentYel2_12 (AutoDXT)
+[2015.05.29-02.36.12:943][  0]LogMaterial: Missing cached shader map for material TentYel2_1, compiling. 
+[2015.05.29-02.36.12:969][  0]LogTexture:Display: Building textures: TentYel32 (BGRA8)
+[2015.05.29-02.36.13:013][  0]LogMaterial: Missing cached shader map for material TentYel3, compiling. 
+[2015.05.29-02.36.13:039][  0]LogTexture:Display: Building textures: TentYel3_12 (BGRA8)
+[2015.05.29-02.36.13:080][  0]LogMaterial: Missing cached shader map for material TentYel3_1, compiling. 
+[2015.05.29-02.36.13:107][  0]LogTexture:Display: Building textures: TentYel3_22 (BGRA8)
+[2015.05.29-02.36.13:148][  0]LogMaterial: Missing cached shader map for material TentYel3_2, compiling. 
+[2015.05.29-02.36.13:173][  0]LogTexture:Display: Building textures: TentYelB2 (BGRA8)
+[2015.05.29-02.36.13:211][  0]LogMaterial: Missing cached shader map for material TentYelB, compiling. 
+[2015.05.29-02.36.13:244][  0]LogTexture:Display: Building textures: TntDoor22 (BGRA8)
+[2015.05.29-02.36.13:306][  0]LogMaterial: Missing cached shader map for material TntDoor2, compiling. 
+[2015.05.29-02.36.13:350][  0]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.29-02.36.13:384][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.05.29-02.36.13:390][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.29-02.36.13:440][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.29-02.36.13:808][  0]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2015.05.29-02.36.19:447][  0]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2015.05.29-02.36.25:435][  0]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2015.05.29-02.36.26:342][  0]LogTexture:Display: Building textures: T_Detail_Rocky_N (BC5)
+[2015.05.29-02.36.26:563][  0]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.05.29-02.36.26:829][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.29-02.36.26:836][  0]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.36.26:840][  0]Cmd: MAP CHECKDEP
+[2015.05.29-02.36.26:840][  0]MapCheck: New page: level_1 - May 28, 2015, 12:36:26 PM
+[2015.05.29-02.36.26:841][  0]LogEditorServer:Warning: WorldSettings contains streaming level '/Game/Levels/level_3' which isn't loaded.
+[2015.05.29-02.36.27:029][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 188.531ms to complete.
+[2015.05.29-02.36.27:029][  0]LogFileHelpers: Loading map 'level_1' took 39.366
+[2015.05.29-02.36.27:310][  0]LogCollectionManager: Loaded 0 collections in 0.002226 seconds
+[2015.05.29-02.36.27:330][  0]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 1703 classes and 263 folders.
+[2015.05.29-02.36.27:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2015.05.29-02.36.27:661][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0021 seconds. Added 1 classes and 3 folders.
+[2015.05.29-02.36.27:704][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.29-02.36.27:711][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.29-02.36.27:725][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.29-02.36.27:763][  0]LogLoad: Full Startup: 55.91 seconds (BP compile: 3.20 seconds)
+[2015.05.29-02.36.28:500][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.29-02.36.28:675][  0]LogRenderer:Warning: Reallocating scene render targets to support 1104x576 (Frame:3).
+[2015.05.29-02.36.28:790][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.05.29-02.36.30:055][ 14]LogAssetRegistry: Asset discovery search completed in 43.9065 seconds
+[2015.05.29-02.36.52:652][  4]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2015.05.29-02.37.12:052][859]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.05.29-02.37.20:385][230]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.37.20:385][230]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.37.20:489][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.29-02.37.20:714][230]LogPlayLevel: PIE:  Blueprint regeneration took 329 ms (1 blueprints)
+[2015.05.29-02.37.20:716][230]PIE: New page: PIE session: level_1 (May 28, 2015, 12:37:20 PM)
+[2015.05.29-02.37.20:741][230]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.37.20:741][230]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.37.20:748][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031494s)
+[2015.05.29-02.37.20:749][230]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2015.05.29-02.37.20:749][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.032614s)
+[2015.05.29-02.37.20:817][230]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.37.20:824][230]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.37.20:832][230]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.37.20:845][230]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.37.20:853][230]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.37.20
+[2015.05.29-02.37.20:861][230]LogWorld: Bringing up level for play took: 0.014750
+[2015.05.29-02.37.20:870][230]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 0.226
+[2015.05.29-02.37.20:937][231]LogRenderer:Warning: Reallocating scene render targets to support 1104x1024 (Frame:2277).
+[2015.05.29-02.37.29:961][379]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.30:942][395]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:003][396]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:057][397]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:123][398]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:246][400]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:301][401]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:454][403]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:504][404]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:558][405]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:618][406]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:679][407]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:734][408]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.31:974][412]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:406][436]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:475][437]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:475][437]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:526][438]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:527][438]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:584][439]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:648][440]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:772][442]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:772][442]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:893][444]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:893][444]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:951][445]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.33:952][445]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:011][446]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:012][446]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:071][447]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:071][447]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:132][448]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:193][449]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:317][450]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:447][453]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:512][454]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:570][455]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:625][456]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:689][457]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:744][458]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:799][459]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:856][460]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:916][461]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.34:975][462]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:035][463]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:089][464]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:150][465]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:213][466]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:274][467]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:333][468]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:392][469]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:510][470]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:531][471]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:580][472]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:640][473]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.35:695][474]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.36:106][481]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.37:159][499]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.37:816][510]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:002][513]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:059][514]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:060][514]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:115][515]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:116][515]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:184][516]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:238][517]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:294][518]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:355][519]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:418][520]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.38:555][521]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.37.39:080][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008D7625080
+[2015.05.29-02.37.50:157][  7]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.37.50:157][  7]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.37.50:271][  7]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2015.05.29-02.37.50:271][  7]PIE: New page: PIE session: level_1 (May 28, 2015, 12:37:50 PM)
+[2015.05.29-02.37.50:302][  7]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.37.50:302][  7]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.37.50:310][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038142s)
+[2015.05.29-02.37.50:311][  7]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2015.05.29-02.37.50:311][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.039478s)
+[2015.05.29-02.37.50:352][  7]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.37.50:356][  7]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.37.50:364][  7]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.37.50:369][  7]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.37.50:376][  7]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.37.50
+[2015.05.29-02.37.50:378][  7]LogWorld: Bringing up level for play took: 0.008368
+[2015.05.29-02.37.50:380][  7]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 -0.265
+[2015.05.29-02.37.51:799][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008D9F32700
+[2015.05.29-02.42.16:456][352]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.42.16:456][352]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.42.16:531][352]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2015.05.29-02.42.16:531][352]PIE: New page: PIE session: level_1 (May 28, 2015, 12:42:16 PM)
+[2015.05.29-02.42.16:551][352]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.42.16:551][352]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.42.16:556][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024582s)
+[2015.05.29-02.42.16:557][352]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2015.05.29-02.42.16:557][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.025296s)
+[2015.05.29-02.42.16:595][352]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.42.16:599][352]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.42.16:605][352]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.42.16:608][352]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.42.16:614][352]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.42.16
+[2015.05.29-02.42.16:616][352]LogWorld: Bringing up level for play took: 0.006784
+[2015.05.29-02.42.16:617][352]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 -0.027
+[2015.05.29-02.42.24:736][511]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.24:787][512]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.24:838][513]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.24:889][514]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.24:942][515]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.24:992][516]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:049][517]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:094][518]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:145][519]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:196][520]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:247][521]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:299][522]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.25:350][523]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.29:807][610]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.29:909][612]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.42.36:118][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008D3265300
+[2015.05.29-02.42.39:547][967]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.42.39:547][967]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.42.39:617][967]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2015.05.29-02.42.39:617][967]PIE: New page: PIE session: level_1 (May 28, 2015, 12:42:39 PM)
+[2015.05.29-02.42.39:636][967]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.42.39:636][967]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.42.39:641][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023982s)
+[2015.05.29-02.42.39:642][967]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2015.05.29-02.42.39:642][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.024616s)
+[2015.05.29-02.42.39:680][967]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.42.39:684][967]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.42.39:689][967]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.42.39:692][967]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.42.39:698][967]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.42.39
+[2015.05.29-02.42.39:699][967]LogWorld: Bringing up level for play took: 0.006888
+[2015.05.29-02.42.39:701][967]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 1.057
+[2015.05.29-02.42.40:522][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008D6FA77E0
+[2015.05.29-02.43.04:267][606]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/props'
+[2015.05.29-02.43.10:700][ 20]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.29-02.43.11:757][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Levels'
+[2015.05.29-02.43.12:568][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.29-02.43.13:191][204]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials'
+[2015.05.29-02.43.13:667][245]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.05.29-02.43.16:477][492]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.29-02.43.20:748][762]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (IntroStart)
+[2015.05.29-02.43.28:405][227]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.43.28:408][227]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.43.28:456][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.05.29-02.43.28:456][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.05.29-02.43.28:456][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.29-02.43.28:456][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.05.29-02.43.28:456][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.29-02.43.28:479][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008D64847C0
+[2015.05.29-02.43.28:499][227]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.05.29-02.43.28:499][227]PIE: New page: PIE session: level_1 (May 28, 2015, 12:43:28 PM)
+[2015.05.29-02.43.28:518][227]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.43.28:518][227]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.43.28:523][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023501s)
+[2015.05.29-02.43.28:524][227]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2015.05.29-02.43.28:524][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.024271s)
+[2015.05.29-02.43.28:586][227]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.43.28:590][227]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.43.28:595][227]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.43.28:599][227]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.43.28:605][227]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.43.28
+[2015.05.29-02.43.28:606][227]LogWorld: Bringing up level for play took: 0.006684
+[2015.05.29-02.43.28:608][227]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 -0.037
+[2015.05.29-02.43.32:766][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008D9EBA980
+[2015.05.29-02.43.38:287][645]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.43.38:290][645]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.43.38:376][645]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.05.29-02.43.38:376][645]PIE: New page: PIE session: level_1 (May 28, 2015, 12:43:38 PM)
+[2015.05.29-02.43.38:394][645]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.43.38:394][645]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.43.38:399][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022413s)
+[2015.05.29-02.43.38:399][645]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2015.05.29-02.43.38:399][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.023049s)
+[2015.05.29-02.43.38:459][645]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.43.38:463][645]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.43.38:469][645]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.43.38:472][645]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.43.38:478][645]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.43.38
+[2015.05.29-02.43.38:480][645]LogWorld: Bringing up level for play took: 0.006615
+[2015.05.29-02.43.38:482][645]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 -0.162
+[2015.05.29-02.43.54:518][942]LogCharacterMovement: IntroStart is stuck and failed to move!
+[2015.05.29-02.44.08:582][190]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008DC5ABCE0
+[2015.05.29-02.44.32:614][635]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.29-02.44.32:617][635]LogPlayLevel: [PIE] Compiling level_1 before PIE...
+[2015.05.29-02.44.32:701][635]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2015.05.29-02.44.32:701][635]PIE: New page: PIE session: level_1 (May 28, 2015, 12:44:32 PM)
+[2015.05.29-02.44.32:719][635]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.44.32:719][635]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_TeleportTo) bSelfContext == true, but no scope supplied!
+[2015.05.29-02.44.32:725][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023247s)
+[2015.05.29-02.44.32:725][635]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2015.05.29-02.44.32:725][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/level_1.level_1 to /Game/Levels/UEDPIE_0_level_1.level_1 (0.023923s)
+[2015.05.29-02.44.32:786][635]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.29-02.44.32:789][635]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_2.level_2 to /Game/Levels/UEDPIE_0_level_2.level_2. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.44.32:794][635]LogWorld: PIE: Copying PIE streaming level from /Game/Levels/level_3.level_3 to /Game/Levels/UEDPIE_0_level_3.level_3. OwningWorld: /Game/Levels/UEDPIE_0_level_1.level_1
+[2015.05.29-02.44.32:798][635]LogAIModule: Creating AISystem for world level_1
+[2015.05.29-02.44.32:804][635]LogWorld: Bringing World /Game/Levels/UEDPIE_0_level_1.level_1 up for play (max tick rate 0) at 2015.05.28-19.44.32
+[2015.05.29-02.44.32:805][635]LogWorld: Bringing up level for play took: 0.006619
+[2015.05.29-02.44.32:807][635]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_level_1 0.162
+[2015.05.29-02.44.50:981][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008DC564B80
+[2015.05.29-02.45.02:664][718]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.05.29-02.45.19:139][762]Cmd: QUIT_EDITOR
+[2015.05.29-02.45.19:347][762]LogExit: Preparing to exit.
+[2015.05.29-02.45.19:732][762]LogExit: Editor shut down
+[2015.05.29-02.45.19:733][762]LogExit: Transaction tracking system shut down
+[2015.05.29-02.45.19:745][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008E7CFFEC0
+[2015.05.29-02.45.19:746][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008DCF85EE0
+[2015.05.29-02.45.19:746][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008DA9FA2A0
+[2015.05.29-02.45.19:747][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008DA9FBA60
+[2015.05.29-02.45.19:890][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008F19B99E0
+[2015.05.29-02.45.19:890][762]LogExit: Object subsystem successfully closed.
+[2015.05.29-02.45.19:963][762]LogModuleManager: Shutting down and abandoning module CrashTracker (179)
+[2015.05.29-02.45.19:964][762]LogModuleManager: Shutting down and abandoning module SuperSearch (178)
+[2015.05.29-02.45.19:964][762]LogModuleManager: Shutting down and abandoning module WorldBrowser (177)
+[2015.05.29-02.45.19:964][762]LogModuleManager: Shutting down and abandoning module SceneOutliner (176)
+[2015.05.29-02.45.19:964][762]LogModuleManager: Shutting down and abandoning module EditorWidgets (175)
+[2015.05.29-02.45.19:964][762]LogModuleManager: Shutting down and abandoning module CollectionManager (174)
+[2015.05.29-02.45.19:965][762]LogModuleManager: Shutting down and abandoning module StatsViewer (173)
+[2015.05.29-02.45.19:965][762]LogModuleManager: Shutting down and abandoning module FoliageEdit (172)
+[2015.05.29-02.45.19:965][762]LogModuleManager: Shutting down and abandoning module LandscapeEditor (171)
+[2015.05.29-02.45.19:966][762]LogModuleManager: Shutting down and abandoning module MeshPaint (170)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module ActorPickerMode (169)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module GeometryMode (168)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module TextureAlignMode (167)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module BspMode (166)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module PlacementMode (165)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module AutomationWorker (164)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module CharacterAI (163)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module SmartSnapping (162)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module ViewportSnapping (161)
+[2015.05.29-02.45.19:967][762]LogModuleManager: Shutting down and abandoning module LogVisualizer (160)
+[2015.05.29-02.45.19:968][762]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (159)
+[2015.05.29-02.45.19:968][762]LogModuleManager: Shutting down and abandoning module IntroTutorials (158)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (157)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (149)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (148)
+[2015.05.29-02.45.19:969][762]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (147)
+[2015.05.29-02.45.20:402][762]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (146)
+[2015.05.29-02.45.20:402][762]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (145)
+[2015.05.29-02.45.20:402][762]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (144)
+[2015.05.29-02.45.20:404][762]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (143)
+[2015.05.29-02.45.20:404][762]LogModuleManager: Shutting down and abandoning module InputBindingEditor (142)
+[2015.05.29-02.45.20:405][762]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (141)
+[2015.05.29-02.45.20:405][762]LogModuleManager: Shutting down and abandoning module SettingsEditor (140)
+[2015.05.29-02.45.20:405][762]LogModuleManager: Shutting down and abandoning module ProjectLauncher (139)
+[2015.05.29-02.45.20:405][762]LogModuleManager: Shutting down and abandoning module SessionFrontend (138)
+[2015.05.29-02.45.20:406][762]LogModuleManager: Shutting down and abandoning module ProfilerClient (137)
+[2015.05.29-02.45.20:406][762]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (136)
+[2015.05.29-02.45.20:406][762]LogModuleManager: Shutting down and abandoning module DeviceManager (135)
+[2015.05.29-02.45.20:406][762]LogModuleManager: Shutting down and abandoning module AutomationController (134)
+[2015.05.29-02.45.20:407][762]LogModuleManager: Shutting down and abandoning module AutomationWindow (133)
+[2015.05.29-02.45.20:407][762]LogModuleManager: Shutting down and abandoning module Layers (132)
+[2015.05.29-02.45.20:408][762]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (131)
+[2015.05.29-02.45.20:408][762]LogModuleManager: Shutting down and abandoning module DetailCustomizations (130)
+[2015.05.29-02.45.20:408][762]LogModuleManager: Shutting down and abandoning module PackagesDialog (129)
+[2015.05.29-02.45.20:409][762]LogModuleManager: Shutting down and abandoning module AssetRegistry (128)
+[2015.05.29-02.45.20:510][762]LogModuleManager: Shutting down and abandoning module Persona (127)
+[2015.05.29-02.45.20:511][762]LogModuleManager: Shutting down and abandoning module SlateReflector (126)
+[2015.05.29-02.45.20:511][762]LogModuleManager: Shutting down and abandoning module LevelEditor (125)
+[2015.05.29-02.45.20:512][762]LogModuleManager: Shutting down and abandoning module Kismet (124)
+[2015.05.29-02.45.20:512][762]LogModuleManager: Shutting down and abandoning module GraphEditor (123)
+[2015.05.29-02.45.20:512][762]LogModuleManager: Shutting down and abandoning module ClassViewer (122)
+[2015.05.29-02.45.20:512][762]LogModuleManager: Shutting down and abandoning module Toolbox (121)
+[2015.05.29-02.45.20:512][762]LogModuleManager: Shutting down and abandoning module ModuleUI (120)
+[2015.05.29-02.45.20:513][762]LogModuleManager: Shutting down and abandoning module MovieSceneTools (119)
+[2015.05.29-02.45.20:513][762]LogModuleManager: Shutting down and abandoning module OutputLog (118)
+[2015.05.29-02.45.20:513][762]LogModuleManager: Shutting down and abandoning module GammaUI (117)
+[2015.05.29-02.45.20:513][762]LogModuleManager: Shutting down and abandoning module Documentation (116)
+[2015.05.29-02.45.20:513][762]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (115)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (114)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module HTTP (113)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module AnalyticsET (112)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module Analytics (111)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module AITestSuite (110)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module GameplayDebugger (109)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.05.29-02.45.20:514][762]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.05.29-02.45.20:645][762]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.05.29-02.45.20:649][762]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2015.05.29-02.45.20:649][762]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (104)
+[2015.05.29-02.45.20:649][762]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (103)
+[2015.05.29-02.45.20:649][762]LogModuleManager: Shutting down and abandoning module CableComponent (102)
+[2015.05.29-02.45.20:649][762]LogModuleManager: Shutting down and abandoning module MessagingDebugger (101)
+[2015.05.29-02.45.20:651][762]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (100)
+[2015.05.29-02.45.20:651][762]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (99)
+[2015.05.29-02.45.20:651][762]LogModuleManager: Shutting down and abandoning module PluginsEditor (98)
+[2015.05.29-02.45.20:652][762]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2015.05.29-02.45.20:652][762]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.05.29-02.45.20:652][762]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.05.29-02.45.20:653][762]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2015.05.29-02.45.20:653][762]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.05.29-02.45.20:653][762]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2015.05.29-02.45.20:653][762]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2015.05.29-02.45.20:653][762]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2015.05.29-02.45.20:654][762]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (89)
+[2015.05.29-02.45.20:655][762]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2015.05.29-02.45.20:655][762]LogModuleManager: Shutting down and abandoning module GitSourceControl (87)
+[2015.05.29-02.45.20:655][762]LogModuleManager: Shutting down and abandoning module BlankPlugin (86)
+[2015.05.29-02.45.20:655][762]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (85)
+[2015.05.29-02.45.20:655][762]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (84)
+[2015.05.29-02.45.20:655][762]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.05.29-02.45.20:656][762]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.05.29-02.45.20:657][762]LogModuleManager: Shutting down and abandoning module ScriptPlugin (81)
+[2015.05.29-02.45.20:657][762]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.05.29-02.45.20:758][762]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.05.29-02.45.20:764][762]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.05.29-02.45.20:772][762]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.05.29-02.45.20:772][762]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.05.29-02.45.20:773][762]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.05.29-02.45.20:773][762]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (74)
+[2015.05.29-02.45.20:774][762]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.29-02.45.20:774][762]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.29-02.45.20:775][762]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.29-02.45.20:775][762]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.29-02.45.20:776][762]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.29-02.45.20:777][762]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.29-02.45.20:777][762]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.29-02.45.20:779][762]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.29-02.45.20:780][762]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.29-02.45.20:781][762]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.29-02.45.20:781][762]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.29-02.45.20:781][762]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.29-02.45.20:788][762]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.29-02.45.20:789][762]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.29-02.45.20:845][762]LogDerivedDataCache: Shutdown
+[2015.05.29-02.45.20:845][762]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.29-02.45.20:845][762]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.29-02.45.20:845][762]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.29-02.45.20:846][762]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.29-02.45.20:847][762]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.29-02.45.20:851][762]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.29-02.45.20:852][762]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.29-02.45.20:852][762]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.29-02.45.20:854][762]LogExit: Exiting.
+[2015.05.29-02.45.20:863][762]Log file closed, 05/28/15 19:45:20
